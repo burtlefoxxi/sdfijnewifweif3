@@ -1,0 +1,184 @@
+body {font-family: arial, helvetica, sans-serif; color:#444444; font-size:14px; margin:0px;}
+
+a:link{color: #0066FF; text-decoration:none;}
+a:visited{color: #0066FF; text-decoration:none;}
+a:hover{color: #0066FF; text-decoration:underline;}
+
+h1{color: #666666;}
+h2{color: #777777;}
+
+#sevenheader{width:100%; margin-bottom:5px; position:relative; display:block; height:25px; line-height:25px; font-family:arial;  font-size:13px; text-align:right;
+background: #FFF; border-bottom: 1px solid #EBEBEB;
+}
+#sevenheader ul{margin:0;padding:0;list-style-type:none;width:auto;float:right; padding-right:20px;}
+#sevenheader ul li{display:block;float:left;margin:0;}
+#sevenheader ul li a{display:block;float:left;color:#919191;text-decoration:none;padding:0px 20px 0 20px;height:25px; line-height:25px; font-size:13px;font-family:arial;  }
+#sevenheader ul li a:hover {color:#666;background:#EBEBEB; font-size:13px;font-family:arial; }
+#sevenheader ul li a.current{color:#666;background:#FFFFFF; font-size:13px; font-family:arial; }
+
+.whycolors{ font-size:11px; color:#666; line-height:15px}
+.whycolors a{color:#666; text-decoration:underline;}
+.whycolors a:hover {color:#111111; text-decoration:underline;}
+.whycolors a.active{text-decoration:none;}
+
+#offset{height: 300px;}
+
+#inneroffset{height: 150px;}
+
+.toptable{margin-left:15px;}
+
+.descr {padding-left:25px}
+.line1 {font-size: 24px; color: #55555; font-weight:bold;}
+.line2 {font-size: 16px; color: #666666;}
+.legendtable{font-size: 14px; color: #555555;}
+
+#sevenwrapper {margin-right:0px;margin-left:0px;}
+
+#separator{width:100%; margin-bottom:10px; height:1px; border-bottom: 1px solid #F4F4F4;}
+
+#contentwrapper {margin-right:50px; margin-left:50px; margin-bottom:70px; font-size:15px; line-height:22px; color: #555555;}
+.content { font-size:15px; line-height:22px; color: #555555;}
+
+#sharebox
+{
+	position:fixed;
+	bottom:0px;
+	right:0px;
+	margin-bottom:-40px;
+	margin-right:40px;
+}
+
+.sharing-icons
+{
+	display:inline-block;
+	overflow:hidden;
+    text-indent:9999px;
+    white-space:nowrap;
+    margin-left:5px;
+    margin-right:5px;
+    padding-bottom:-15px;
+    opacity:.3;
+   	-webkit-transition:opacity .3s;
+   	-moz-transition:opacity .3s;
+   	-ms-transition:opacity .3s;
+   	-o-transition:opacity .3s;
+   	transition:opacity .3s;
+}
+
+.sharing-icons:hover
+{
+	opacity:1;
+   	-webkit-transition:opacity .3s;
+   	-moz-transition:opacity .3s;
+   	-ms-transition:opacity .3s;
+   	-o-transition:opacity .3s;
+   	transition:opacity .3s;
+}
+
+#facebook
+{
+	width:25px;
+	height:25px;
+	background: url('../images/img-facebook.png') no-repeat;
+}
+
+#twitter
+{
+	width:25px;
+	height:25px;
+	background: url('../images/img-twitter.png') no-repeat;
+}
+
+#dribbble
+{
+	width:25px;
+	height:25px;
+	background: url('../images/img-dribbble.png') no-repeat;
+}
+
+
+#as1 {background-image:url('../images/../images/../images/../images/seven_asia.gif'); height: 2110500px; width:640000px;}
+#as2 {background-image:url('../images/../images/../images/../images/seven_asia.gif'); height: 20px; width:214848px;}
+#af1 {background-image:url('../images/../images/../images/../images/../images/../images/seven_africa.gif'); height: 20px; width:425152px;}
+#af2 {background-image:url('../images/../images/../images/../images/../images/../images/seven_africa.gif'); height: 528000px; width:640000px;}
+#af3 {background-image:url('../images/../images/../images/../images/../images/../images/seven_africa.gif'); height: 20px; width:138640px;}
+#am1 {background-image:url('../images/../images/../images/../images/../images/../images/seven_americas.gif'); height: 20px; width:501360px;}
+#am2 {background-image:url('../images/../images/../images/../images/../images/../images/seven_americas.gif'); height: 473580px; width:640000px;}
+#am3 {background-image:url('../images/../images/../images/../images/../images/../images/seven_americas.gif'); height: 20px; width:295408px;}
+#eu1 {background-image:url('../images/../images/../images/../images/../images/../images/seven_europe.gif'); height: 20px; width:344592px;}
+#eu2 {background-image:url('../images/../images/../images/../images/../images/../images/seven_europe.gif'); height: 369160px; width:640000px;}
+#eu3 {background-image:url('../images/../images/../images/../images/../images/../images/seven_europe.gif'); height: 20px; width:246192px;}
+#oc1 {background-image:url('../images/../images/../images/../images/../images/seven_oceania.gif'); height: 20px; width:393808px;}
+#oc2 {background-image:url('../images/../images/../images/../images/../images/seven_oceania.gif'); height: 18680px; width:640000px;}
+
+#hunger {background-image:url('../images/seven-hunger.gif'); height: 9400px; width:1040px;}
+#table_hunger {margin-left:20px}
+#hungerwrapper {background-color:#333333; padding-top:20px; padding-bottom:20px; width:1080px; }
+
+#seepage {background-image:url('../images/../images/../images/../images/../images/seven_oceania.gif'); height: 3500px; width:640px;}
+
+#smas1 {background-image:url('../images/../images/../images/../images/seven_asia.gif'); height: 2110500px; width:640000px;}
+#smas2 {background-image:url('../images/../images/../images/../images/seven_asia.gif'); height: 20px; width:214848px;}
+#smaf1 {background-image:url('../images/../images/../images/../images/../images/../images/seven_africa.gif'); height: 20px; width:425152px;}
+#smaf2 {background-image:url('../images/../images/../images/../images/../images/../images/seven_africa.gif'); height: 528000px; width:640000px;}
+#smaf3 {background-image:url('../images/../images/../images/../images/../images/../images/seven_africa.gif'); height: 20px; width:138640px;}
+#smam1 {background-image:url('../images/../images/../images/../images/../images/../images/seven_americas.gif'); height: 20px; width:501360px;}
+#smam2 {background-image:url('../images/../images/../images/../images/../images/../images/seven_americas.gif'); height: 473580px; width:640000px;}
+#smam3 {background-image:url('../images/../images/../images/../images/../images/../images/seven_americas.gif'); height: 20px; width:295408px;}
+#smeu1 {background-image:url('../images/../images/../images/../images/../images/../images/seven_europe.gif'); height: 20px; width:344592px;}
+#smeu2 {background-image:url('../images/../images/../images/../images/../images/../images/seven_europe.gif'); height: 369160px; width:640000px;}
+#smeu3 {background-image:url('../images/../images/../images/../images/../images/../images/seven_europe.gif'); height: 20px; width:246192px;}
+#smoc1 {background-image:url('../images/../images/../images/../images/../images/seven_oceania.gif'); height: 20px; width:393808px;}
+#smoc2 {background-image:url('../images/../images/../images/../images/../images/seven_oceania.gif'); height: 18680px; width:640000px;}
+
+#PersonNo 
+{
+	position:absolute; 
+	display:none; 
+	background-color: white !important;
+	padding: 0 4px  !important; 
+	border:1px solid #666!important;
+	left:0;
+	top:0;
+	color: #333;
+	font-weight:normal;
+	font-size:12px;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	border-radius: 8px;
+	opacity:0.8;
+	filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+
+
+
+#end1{ padding-left=:10px; width:800px;font-size:18px; color:#666; text-align:right;}
+
+#end2{ width:638100px; }
+
+#end3{ width:1130px; font-size:18px; color:#666; text-align:right; margin-top:15px; padding-left:50px; line-height:25px; }
+#end3 a{color:#666; text-decoration:underline;}
+#end3 a:hover {color:#555; text-decoration:none;}
+#end3 a.active{text-decoration:none;}
+
+.ads {font-size:11px; color:#666; margin-left:10px; text-align:left;}
+
+.final {margin-right:40px; text-align:right}
+
+#more{ width:100%;font-size:18px; color:#666; text-align:right;}
+
+#endadr{ padding-left=:10px; width:800px;font-size:18px; color:#666; text-align:right;}
+#endmore{ width:200px;font-size:18px; color:#666; text-align:right;}
+#footermain{bottom:0;height:20px;width:100%; font-size:10px; color:#ccc; text-align:center;}
+
+#footer{border-top:1px solid #ebebeb; height:20px; width:100%; font-size:12px; color:#555; text-align:center; padding:5px;}
+#footer a{color:#666; margin: 0 10px; font-size:10px; }
+#footer a:hover {text-decoration:underline;}
+#footer a.active{text-decoration:underline;}
+
+/* BASE
+line2 B4B4B4
+border-top:1px solid #ebebeb;bottom:0;height:20px;width:100%; font-size:12px; color:#555; text-align:center; padding:5px;
+
+*/
